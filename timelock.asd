@@ -6,6 +6,6 @@
   :license  "Specify license here"
   :version "0.0.1"
   :serial t
-  :depends-on (#:ironclad #:utility #:alexandria)
+  :depends-on (#:ironclad #:utility #:alexandria #:sucle-multiprocessing)
   :components ((:file "package")
                (:file "timelock")))
